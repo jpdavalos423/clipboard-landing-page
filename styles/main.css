@@ -13,11 +13,11 @@ body h1 {
   font-weight: 600;
 }
 body h2 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 600;
 }
 body h3 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 body p {
@@ -29,10 +29,14 @@ body img {
 
 .download-buttons div {
   color: white;
-  background-color: red;
+  background-color: seagreen;
   padding: 1.2rem;
   margin: 2.5rem 0;
   border-radius: 36rem;
+}
+
+.content-section {
+  margin: 10rem 0;
 }
 
 .hero {
@@ -44,4 +48,23 @@ body img {
 }
 .hero h1 {
   margin: 1rem 0;
+}
+
+.tools-card img {
+  width: 4rem;
+}
+
+.logos-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 40rem;
+}
+.logos-section img {
+  width: 12rem;
+}
+
+footer {
+  background-color: hsl(201, 11%, 66%);
 }/*# sourceMappingURL=main.css.map */
