@@ -3,7 +3,29 @@ html {
 }
 
 body {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: $font-weight-s;
   color: $dark-grayish-blue;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: $font-weight-m;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    font-weight: $font-weight-m;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: $font-weight-m;
+  }
+  p {
+    color: $grayish-blue;
+  }
+  img {
+    width: 100%;
+  }
 }
