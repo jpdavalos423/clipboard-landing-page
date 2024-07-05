@@ -8,6 +8,7 @@ body {
   color: $dark-grayish-blue;
   text-align: center;
   line-height: 1.5;
+  padding: 3rem;
 
   h1 {
     font-size: 3rem;
@@ -24,6 +25,7 @@ body {
     font-weight: $font-weight-m;
   }
   p {
+    font-size: 1.8rem;
     color: $grayish-blue;
   }
   img {
