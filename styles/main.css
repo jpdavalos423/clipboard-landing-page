@@ -109,9 +109,17 @@ main {
 }
 .download-buttons .ios-download-button {
   background-color: hsl(171, 66%, 44%);
+  transition: 0.1s ease-in-out;
+}
+.download-buttons .ios-download-button:hover {
+  background-color: hsla(171, 66%, 44%, 0.8);
 }
 .download-buttons .mac-download-button {
   background-color: hsl(233, 100%, 69%);
+  transition: 0.1s ease-in-out;
+}
+.download-buttons .mac-download-button:hover {
+  background-color: hsla(233, 100%, 69%, 0.8);
 }
 
 footer {
@@ -128,6 +136,9 @@ footer img {
 footer li {
   margin: 2.5rem 0;
 }
+footer li:hover {
+  color: hsl(171, 66%, 44%);
+}
 
 .footer-socials {
   margin-top: 3rem;
@@ -138,4 +149,7 @@ footer li {
 }
 .footer-socials img {
   width: 2.5rem;
+}
+.footer-socials img:hover {
+  filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(2197%) hue-rotate(120deg) brightness(86%) contrast(80%);
 }/*# sourceMappingURL=main.css.map */

@@ -79,9 +79,17 @@
 
   .ios-download-button {
     background-color: $strong-cyan;
+    transition: 0.1s ease-in-out;
+  }
+  .ios-download-button:hover {
+    background-color: $transparent-strong-cyan;
   }
   .mac-download-button {
     background-color: $light-blue;
+    transition: 0.1s ease-in-out;
+  }
+  .mac-download-button:hover {
+    background-color: $transparent-light-blue;
   }
 }
 
@@ -98,6 +106,9 @@ footer {
   li {
     margin: 2.5rem 0;
   }
+  li:hover {
+    color: $strong-cyan;
+  }
 }
 
 .footer-socials {
@@ -108,5 +119,9 @@ footer {
   align-items: center;
   img {
     width: 2.5rem;
+  }
+  img:hover {
+    filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(2197%)
+      hue-rotate(120deg) brightness(86%) contrast(80%);
   }
 }
