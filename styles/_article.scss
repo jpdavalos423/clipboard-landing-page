@@ -1,5 +1,5 @@
 .content-section {
-  margin: 13rem 0;
+  margin: 17rem 0;
 }
 
 .hero {
@@ -16,14 +16,29 @@
   }
 }
 
+.cloud-section {
+  p {
+    margin: 1rem 0;
+  }
+
+  img {
+    margin-top: 5rem;
+  }
+}
+
 .cloud-feature {
   margin: 5rem 0;
 }
 
 .global-access-section {
+  margin-bottom: 10rem;
   img {
     margin-top: 6rem;
   }
+}
+
+.tools-section {
+  margin-top: 10rem;
 }
 
 .tools-card {
@@ -48,11 +63,13 @@
   height: 45rem;
 
   img {
-    width: 11rem;
+    width: 12rem;
   }
 }
 
 .download-buttons {
+  margin: 5rem 0;
+
   div {
     color: white;
     padding: 1.2rem;
