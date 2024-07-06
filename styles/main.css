@@ -8,7 +8,7 @@ body {
   color: hsl(210, 10%, 33%);
   text-align: center;
   line-height: 1.5;
-  padding: 3.4rem;
+  padding-top: 6rem;
 }
 body h1 {
   font-size: 3rem;
@@ -17,6 +17,7 @@ body h1 {
 body h2 {
   font-size: 2.6rem;
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 body h3 {
   font-size: 2.4rem;
@@ -28,6 +29,10 @@ body p {
 }
 body img {
   width: 100%;
+}
+
+main {
+  padding: 0 3.4rem;
 }
 
 .content-section {
@@ -110,5 +115,27 @@ body img {
 }
 
 footer {
-  background-color: hsl(201, 11%, 66%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: hsla(201, 11%, 66%, 0.1);
+  padding: 5rem 0;
+}
+footer img {
+  width: 5rem;
+}
+footer li {
+  margin: 2.5rem 0;
+}
+
+.footer-socials {
+  margin-top: 3rem;
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-socials img {
+  width: 2.5rem;
 }/*# sourceMappingURL=main.css.map */
