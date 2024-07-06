@@ -9,30 +9,14 @@ body {
   text-align: center;
   line-height: 1.5;
   padding-top: 6rem;
-  h1 {
-    font-size: 3rem;
-    font-weight: $font-weight-m;
-  }
-
-  h2 {
-    font-size: 2.6rem;
-    font-weight: $font-weight-m;
-    margin-bottom: 1rem;
-  }
-
-  h3 {
-    font-size: 2.4rem;
-    font-weight: $font-weight-m;
-  }
-  p {
-    font-size: 1.6rem;
-    color: $grayish-blue;
-  }
-  img {
-    width: 100%;
-  }
 }
 
 main {
   padding: 0 3.4rem;
+}
+
+.attribution {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 99%;
 }

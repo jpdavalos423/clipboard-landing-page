@@ -1,3 +1,26 @@
+h1 {
+  font-size: 3rem;
+  font-weight: $font-weight-m;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: $font-weight-m;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: $font-weight-m;
+}
+p {
+  font-size: 1.6rem;
+  color: $grayish-blue;
+}
+img {
+  width: 100%;
+}
+
 .content-section {
   margin: 17rem 0;
 }
@@ -123,5 +146,127 @@ footer {
   img:hover {
     filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(2197%)
       hue-rotate(120deg) brightness(86%) contrast(80%);
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  p {
+    font-size: 1.8rem;
+    max-width: 65rem;
+  }
+  .content-section {
+    margin: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      max-width: 65rem;
+    }
+  }
+
+  .download-buttons {
+    display: flex;
+    justify-content: center;
+    a {
+      margin: 0 1rem;
+      width: 20rem;
+    }
+  }
+
+  .cloud-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cloud-description {
+    display: flex;
+    align-items: center;
+    img {
+      width: 60%;
+      margin-right: 3.4rem;
+    }
+  }
+  .cloud-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3rem 0;
+    max-width: 38rem;
+    p {
+      text-align: left;
+    }
+  }
+  // .all-cloud-features {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  // }
+
+  .global-access-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 60%;
+    }
+  }
+
+  .tools-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .all-tools-cards {
+    display: flex;
+    width: 80%;
+  }
+
+  .logos-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+
+    .logo {
+      margin: 0 5rem;
+    }
+  }
+
+  .call-to-action {
+    display: flex;
+  }
+
+  footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 15rem;
+    padding: 2rem 10rem;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-flow: column no-wrap;
+  }
+  .footer-socials {
+    margin: 0;
   }
 }

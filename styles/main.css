@@ -10,29 +10,40 @@ body {
   line-height: 1.5;
   padding-top: 6rem;
 }
-body h1 {
+
+main {
+  padding: 0 3.4rem;
+}
+
+.attribution {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 99%;
+}
+
+h1 {
   font-size: 3rem;
   font-weight: 600;
 }
-body h2 {
+
+h2 {
   font-size: 2.6rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
-body h3 {
+
+h3 {
   font-size: 2.4rem;
   font-weight: 600;
 }
-body p {
+
+p {
   font-size: 1.6rem;
   color: hsl(201, 11%, 66%);
 }
-body img {
-  width: 100%;
-}
 
-main {
-  padding: 0 3.4rem;
+img {
+  width: 100%;
 }
 
 .content-section {
@@ -152,4 +163,109 @@ footer li:hover {
 }
 .footer-socials img:hover {
   filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(2197%) hue-rotate(120deg) brightness(86%) contrast(80%);
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 0;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  p {
+    font-size: 1.8rem;
+    max-width: 65rem;
+  }
+  .content-section {
+    margin: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero p {
+    max-width: 65rem;
+  }
+  .download-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .download-buttons a {
+    margin: 0 1rem;
+    width: 20rem;
+  }
+  .cloud-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cloud-description {
+    display: flex;
+    align-items: center;
+  }
+  .cloud-description img {
+    width: 60%;
+    margin-right: 3.4rem;
+  }
+  .cloud-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3rem 0;
+    max-width: 38rem;
+  }
+  .cloud-feature p {
+    text-align: left;
+  }
+  .global-access-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-access-section img {
+    width: 60%;
+  }
+  .tools-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .all-tools-cards {
+    display: flex;
+    width: 80%;
+  }
+  .logos-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+  }
+  .logos-section .logo {
+    margin: 0 5rem;
+  }
+  .call-to-action {
+    display: flex;
+  }
+  footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 15rem;
+    padding: 2rem 10rem;
+  }
+  .footer-links {
+    display: flex;
+    flex-flow: column no-wrap;
+  }
+  .footer-socials {
+    margin: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
