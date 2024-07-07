@@ -3,6 +3,9 @@ html {
 }
 
 body {
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   font-size: 1.8rem;
   font-weight: $font-weight-s;
   color: $dark-grayish-blue;
@@ -13,6 +16,8 @@ body {
 
 main {
   padding: 0 3.4rem;
+  max-width: 768px;
+  margin: auto;
 }
 
 .attribution {
