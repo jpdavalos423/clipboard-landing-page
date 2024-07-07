@@ -118,6 +118,7 @@ img {
   border-radius: 36rem;
 }
 .download-buttons .ios-download-button {
+  box-shadow: hsla(171, 66%, 44%, 0.8) 0px 12px 10px -10px;
   background-color: hsl(171, 66%, 44%);
   transition: 0.1s ease-in-out;
 }
@@ -125,6 +126,7 @@ img {
   background-color: hsla(171, 66%, 44%, 0.8);
 }
 .download-buttons .mac-download-button {
+  box-shadow: hsla(233, 100%, 69%, 0.8) 0px 12px 10px -10px;
   background-color: hsl(233, 100%, 69%);
   transition: 0.1s ease-in-out;
 }
@@ -173,7 +175,7 @@ footer img {
 
 @media (min-width: 1024px) {
   main {
-    padding: 0;
+    padding: 3rem 0;
   }
   h1 {
     font-size: 4rem;
@@ -199,6 +201,7 @@ footer img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15rem;
   }
   .hero p {
     max-width: 65rem;
@@ -211,6 +214,9 @@ footer img {
   .download-buttons a {
     margin: 0 1rem;
     width: 20rem;
+  }
+  .download-buttons div {
+    margin: 0;
   }
   .cloud-header {
     display: flex;
@@ -255,10 +261,12 @@ footer img {
     justify-content: space-between;
     width: 80%;
     height: 30rem;
-    margin-top: 5rem;
   }
-  .tools-card {
+  .all-tools-cards .tools-card {
     width: 35rem;
+  }
+  .all-tools-cards p {
+    line-height: 2;
   }
   .logos-section {
     flex-direction: row;
@@ -269,6 +277,9 @@ footer img {
   .logos-section .logo {
     margin: 0 5rem;
   }
+  .logos-section img {
+    width: 15rem;
+  }
   .call-to-action {
     display: flex;
   }
@@ -278,7 +289,7 @@ footer img {
     justify-content: space-between;
     align-items: center;
     height: 17.5rem;
-    padding: 4rem 10rem;
+    padding: 3rem 10rem;
   }
   footer img {
     margin: 0;
