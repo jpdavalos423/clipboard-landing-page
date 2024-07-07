@@ -17,8 +17,7 @@ main {
 
 .attribution {
   position: absolute;
-  transform: translate(-50%, -50%);
-  top: 99%;
+  top: 85%;
 }
 
 h1 {
@@ -134,6 +133,7 @@ img {
 }
 
 footer {
+  position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -143,11 +143,17 @@ footer {
 }
 footer img {
   width: 5rem;
+  margin-bottom: 2rem;
 }
-footer li {
-  margin: 2.5rem 0;
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
 }
-footer li:hover {
+.footer-links a {
+  margin: 1rem 0;
+}
+.footer-links a:hover {
   color: hsl(171, 66%, 44%);
 }
 
@@ -165,7 +171,7 @@ footer li:hover {
   filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(2197%) hue-rotate(120deg) brightness(86%) contrast(80%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   main {
     padding: 0;
   }
@@ -177,13 +183,16 @@ footer li:hover {
   }
   p {
     font-size: 1.8rem;
-    max-width: 65rem;
   }
   .content-section {
     margin: 10rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .section-header p {
+    margin-bottom: 5rem;
+    max-width: 70rem;
   }
   .hero {
     display: flex;
@@ -197,6 +206,7 @@ footer li:hover {
   .download-buttons {
     display: flex;
     justify-content: center;
+    margin: 0;
   }
   .download-buttons a {
     margin: 0 1rem;
@@ -208,12 +218,14 @@ footer li:hover {
     align-items: center;
   }
   .cloud-description {
+    width: 100%;
     display: flex;
     align-items: center;
   }
   .cloud-description img {
-    width: 60%;
-    margin-right: 3.4rem;
+    width: 50%;
+    margin-right: 10rem;
+    text-align: left;
   }
   .cloud-feature {
     display: flex;
@@ -240,7 +252,13 @@ footer li:hover {
   }
   .all-tools-cards {
     display: flex;
+    justify-content: space-between;
     width: 80%;
+    height: 30rem;
+    margin-top: 5rem;
+  }
+  .tools-card {
+    width: 35rem;
   }
   .logos-section {
     flex-direction: row;
@@ -255,17 +273,30 @@ footer li:hover {
     display: flex;
   }
   footer {
-    position: relative;
     display: flex;
     flex-direction: row;
-    height: 15rem;
-    padding: 2rem 10rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 17.5rem;
+    padding: 4rem 10rem;
+  }
+  footer img {
+    margin: 0;
   }
   .footer-links {
+    height: 8rem;
     display: flex;
-    flex-flow: column no-wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .footer-links a {
+    text-align: left;
+    width: 25rem;
+    margin: 0.5rem 0;
   }
   .footer-socials {
+    width: 12rem;
     margin: 0;
   }
 }/*# sourceMappingURL=main.css.map */
